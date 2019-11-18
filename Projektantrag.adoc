@@ -1,0 +1,36 @@
+# Projektantrag
+
+=== von Konstantin Frank, David Andraschko, Nina Holzinger
+
+
+
+== Ausgangsituation
+Immer wieder hört man in den Medien, dass Kleinkinder in Pools ertrinken. Dies kann die
+Folge einer kurzen Unachtsamkeit der Beaufsichtigter sein. Dazu kommt, dass heutzutage ein viel
+mehr Personen einen im eigenen Garten besitzen.
+
+== Problemstellung
+Manchmal passiert es den Eltern oder den aufpassenden Personen, dass sie ein Kleinkind
+kurz unbeaufsichtigt lassen. Vielleicht denken sich die Menschen dann, dass in den 5 Minuten
+Abwesenheit schon nichts passieren wird. Die Tatsache, dass
+Babys und Kleinkinder leise und unbemerkt ertrinken machen unbeaufsichtigte Situationen nochmals
+gefährlicher.
+
+== Aufgabenstellung
+Die Idee ist einen kleinen Gyrosensor in einen Chlorspender für Pools einzubauen.
+Dieser Sensor soll dann sobald ein Kind oder etwas anderes wie zum Beispiel ein Haustier ins Pool fällt "Alarm schlagen".
+Der in dem Chlorspender eingebautem misst dauerhaft die Werte der X, Y, Z Achse des Spenders. Sobald ein Wert
+sich durch das Hineinfallen eines Kindes außerhalb der zugelassenen Toleranz befindet soll ein Warnsignal
+abgegeben werden. Dieses Warnsignal soll sowohl akustisch, visuell als auch als Push-Benachrichtigungen umgesetzt werden.
+Das akustische und visuelle Warnsignal soll durch eine Art Sirene und einer Warnleuchte dargestellt werden.
+Technische gesehen wird das Ganze mit einem an einem Microcontroller angeschlossenen Gyrosensor. Der Microcontroller
+sendet das Signal im Fall der Veränderung der Koordinaten an den Benutzer bzw. "aktiviert" somit die
+akustischen und visuellen Signale.
+
+== Anwendungsfälle
+Grundsätzlich soll das Ding im Falle eines Falles alle sich im aktuelle Bereich befindenden Person alarmieren um
+im schlimmsten Fall das Ertrinken eines Menschen durch schnelle Hilfe zu verhindern.
+Das Gerät ist im Prinzip nicht nur für Kinder geeignet sondern kann eventuell auch zur Bewachung des eigenen Pools
+bei fremdem Zutritt helfen. Auch für Tiere kann dieser Überwachungssensor hilfreich sein um auch diese vor dem
+Ertrinken zu bewahren.
+
