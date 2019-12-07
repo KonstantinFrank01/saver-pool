@@ -25,12 +25,12 @@ abgegeben werden. Dieses Warnsignal soll sowohl akustisch, visuell als auch als 
 Das akustische und visuelle Warnsignal soll durch eine Art Sirene und einer Warnleuchte dargestellt werden.
 Technische gesehen wird das Ganze mit einem an einem Microcontroller angeschlossenen Gyrosensor. Der Microcontroller
 sendet das Signal im Fall der Veränderung der Koordinaten an den Benutzer bzw. "aktiviert" somit die
-akustischen und visuellen Signale.
+akustischen und visuellen Warnsignale.
 
 == Anwendungsfälle
-Grundsätzlich soll das Ding im Falle eines Falles alle sich im aktuelle Bereich befindenden Person alarmieren um
+Grundsätzlich soll das Gerät mit Hilfe der Warnsignale alle sich im aktuelle Bereich befindenden Person alarmieren um
 im schlimmsten Fall das Ertrinken eines Menschen durch schnelle Hilfe zu verhindern.
-Das Gerät ist im Prinzip nicht nur für Kinder geeignet sondern kann eventuell auch zur Bewachung des eigenen Pools
+Das Gerät ist im Prinzip nicht nur für Kinder geeignet, sondern kann eventuell auch zur Bewachung des eigenen Pools
 bei fremdem Zutritt helfen. Auch für Tiere kann dieser Überwachungssensor hilfreich sein um auch diese vor dem
 Ertrinken zu bewahren.
 
