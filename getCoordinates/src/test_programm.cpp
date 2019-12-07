@@ -76,9 +76,9 @@ void setup() {
 
 void loop() {
   double Ax, Ay, Az, T, Gx, Gy, Gz;
-  
+
   Read_RawValue(MPU6050SlaveAddress, MPU6050_REGISTER_ACCEL_XOUT_H);
-  
+
   //divide each with their sensitivity scale factor
   Ax = (double)AccelX/AccelScaleFactor;
   Ay = (double)AccelY/AccelScaleFactor;
@@ -99,5 +99,3 @@ void loop() {
 //Serial.print("Hallo");
   delay(1000);
 }
-
-
