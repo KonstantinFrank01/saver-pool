@@ -330,7 +330,7 @@ bool MQTTClient::unsubscribe(const char topic[]) {
   return true;
 }
 
-bool MQTTClient::loop() {
+ bool MQTTClient::loop() {
   // return immediately if not connected
   if (!this->connected()) {
     return false;
